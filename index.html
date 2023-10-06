@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title>Érica da Silva</title>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome - Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!--css-->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#travel">Travel</a>
+                    <a class="nav-link" href="#movies">Movies</a>
+                    <a class="nav-link" href="#books">Books</a>
+                    <a class="nav-link" href="#footer">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--travels-->
+    <div class="container">
+        <h2 class="page-header" id="travel">Must-Visit Places</h2>
+        <div class="principaltravel">
+            <img src="assets/england.jpg">
+            <h4 class="text-capitalize"><kbd>England</kbd></h4>
+            <h5 class="text-danger text-capitalize">I visited England in February 2019</h5>
+            <div class="line col-4"></div>
+            <p class="text-muted">
+                I had the incredible opportunity to visit England as part of a memorable journey 
+                with my parents. At the time, I was on an exchange program in Portugal, which allowed
+                 us to explore various European countries.
+                <br>
+                The trip to England was a highlight, and I cherished every moment of it. 
+                We had the chance to immerse ourselves in the rich history and culture of the country, 
+                from exploring the historic streets of London to savoring traditional English tea.
+                <br>
+                The photo captures a special moment when I found myself atop the famous London Eye, 
+                a giant Ferris wheel that provides breathtaking panoramic views of the city. It was 
+                a truly unforgettable experience that I will always treasure.
+            </p>
+        </div>
+        <div class="principaltravel">
+            <img src="assets/paris.jpg">
+            <h4 class="text-capitalize"><kbd>Paris</kbd></h4>
+            <h5 class="text-danger text-capitalize">I visited Paris in February 2019</h5>
+            <div class="line col-4"></div>
+            <p class="text-muted">
+                During the same incredible trip, I had the privilege of fulfilling a lifelong 
+                dream by visiting Paris, the City of Light. Paris had always held a special 
+                place in my heart, and finally standing before the iconic Eiffel Tower was a 
+                moment of pure joy and wonder.                
+                <br>
+                The city's enchanting streets, delicious cuisine, and timeless landmarks like 
+                the Louvre Museum left an indelible mark on me. 
+                <br>
+                The photo I have chosen captures the elegance and grandeur of the Eiffel Tower, 
+                which symbolizes the romance and beauty of Paris. It was an experience that exceeded
+                 all my expectations and left me with cherished memories of this enchanting city.
+            </p>
+        </div>
+    </div>
+
+    <!-- movies -->
+    <div class="container">
+        <h2 class="page-header" id="movies">Movie Reviews</h2>
+        <div class="movie">
+            <div class="movieHead bg-dark text-white" data-bs-toggle="collapse" data-bs-target="#movie1">
+                <span class="fa-solid fa-film"></span>
+                UP
+                <i class="fas fa-sort-down"></i>
+            </div>
+            <div id="movie1" class="collapse">
+                <div class="movieBody">
+                    <img class="img-fluid img-thumbnail col-4" src="assets/UP.jpg">
+                    <h5 class="text-danger text-capitalize">
+                        'Up' is a heartwarming adventure that I simply adore.
+                        <span class="fa-solid fa-star"></span>
+                        <span class="fa-solid fa-star"></span>
+                        <span class="fa-solid fa-star"></span>
+                        <span class="fa-solid fa-star"></span>
+                        <span class="fa-solid fa-star-half-stroke"></span>
+                    </h5>
+                    <p>
+                        I absolutely adore the movie 'Up.' From the moment I first watched it, 
+                        I was captivated by its heartwarming storyline and charming characters. 
+                        'Up' is a true masterpiece of animation, a film that takes you on an emotional 
+                        journey like no other. The way it explores themes of love, loss, and adventure 
+                        is both touching and inspiring. The character of Carl Fredricksen, with his 
+                        determination and spirit of adventure, has always resonated with me. 
+                        And who can forget the lovable Dug, the talking dog? The movie's unique blend of 
+                        humor and poignancy creates a magical cinematic experience that I can watch over 
+                        and over again. 'Up' is not just a film; it's a heartfelt adventure that reminds 
+                        us to cherish life's moments and pursue our dreams with unwavering passion.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="movie">
+            <div class="movieHead bg-dark text-white" data-bs-toggle="collapse" data-bs-target="#movie2">
+                <span class="fa-solid fa-film"></span>
+                Good Will Hunting
+                <i class="fas fa-sort-down"></i>
+            </div>
+            <div id="movie2" class="collapse">
+                <div class="movieBody">
+                    <img class="img-fluid img-thumbnail col-4" src="assets/GoodWillHunting.jpg">
+                    <h5 class="text-danger text-capitalize">
+                        Good Will Hunting' is a powerful testament to the potential within us all.
+                        <span class="fa-solid fa-star"></span>
+                        <span class="fa-solid fa-star"></span>
+                        <span class="fa-solid fa-star"></span>
+                        <span class="fa-solid fa-star-half-stroke"></span>
+                        <span class="fa-regular fa-star"></span>
+                    </h5>
+                    <p>
+                        I absolutely loved the movie 'Good Will Hunting.' As a mathematics teacher, 
+                        I was particularly drawn to the film's portrayal of the protagonist, Will Hunting, 
+                        and his extraordinary mathematical abilities. The story beautifully highlights the 
+                        potential of individuals, even those facing personal challenges, to excel in their 
+                        chosen fields. Robin Williams' portrayal of the therapist who recognizes Will's talents 
+                        and guides him is truly inspirational. It's a movie that reminds us of the transformative 
+                        power of education and mentorship, and I found it deeply moving.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- books -->
+    <div class="container">
+        <h2 class="page-header" id="books">My Favorite Books</h2>
+        <div class="row bookline">
+            <div class="col-6">
+                <img class="img-fluid" src="https://m.media-amazon.com/images/I/51yvcUb5tFL.jpg">
+                <hr>
+                <a class="text-capitalize text-danger" target="_blank" href="https://www.amazon.com.br/Ladr%C3%A3o-Raios-S%C3%A9rie-Jackson-Olimpianos/dp/8580575397/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=29O96QWZ3I3GM&keywords=ladrao+de+raios&qid=1656789178&s=books&sprefix=ladra%2Cstripbooks%2C187&sr=1-1">
+                    Percy Jackson and the Olympians - The Lightning Thief
+                </a>
+            </div>
+            <div class="col-6 book">
+                <img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/51dubTInrDL._SX330_BO1,204,203,200_.jpg">
+                <hr>
+                <a class="text-capitalize text-danger" target="_blank" href="https://www.amazon.com.br/Como-Treinar-Drag%C3%A3o-Cressida-Cowell/dp/8598078719/ref=sr_1_1?keywords=como+treinar+seu+dragao&qid=1656789047&s=books&sprefix=como+tre%2Cstripbooks%2C200&sr=1-1">
+                    How to Train Your Dragon
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div id="footer" class="container-fluid">
+        <!--map-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99579.37400557194!2d-9.1597358!3d38.74407945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisboa!5e0!3m2!1spt-PT!2spt!4v1696600305362!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        <hr>
+        <!-- ibagem!!! -->
+        <div id="contato" class="col-sm-12 col-lg-12">
+        <!--  -->
+            <h3>
+                Érica da Silva
+            </h3>
+            <!--email-->
+            <a href="mailto:erica-vitoria-855@hotmail.com?Subject=Hi">
+                <h5>
+                    <i class="fa-regular fa-envelope"></i>
+                    E-Mail
+                </h5>
+            </a>
+            <!--insta-->
+            <a href="https://www.instagram.com/erica_machads/" target="_blank">
+                <h5>
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                </h5>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
